@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="JS/Script.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="bg-neutral-100 dark:bg-neutral-900 h-screen">
+
+    <header class="w-full fixed top-0 left-0 z-30">
+        <nav class="flex flex-row justify-between border-b-2 border-solid border-sky-800 dark:border-indigo-900 w-full p-2 bg-neutral-100 dark:bg-neutral-900 text-black dark:text-white">
+            <i class="text-xl"><strong>&lt;GF /&gt;</strong></i>
+            <ul class="hidden sm:flex">
+                <li class="text-lg mx-2 hover:underline"><a href="#home">Home</a></li>
+                <li class="text-lg mx-2 hover:underline"><a href="#about">Sobre mim</a></li>
+                <li class="text-lg mx-2 hover:underline"><a href="#projects">Pojetos</a></li>
+            </ul>
+
+            <ul class="flex sm:hidden mx-2 hover:underline ">
+                <li class="text-xl mx-2 hover:underline"><a href="#home" class="mdi mdi-home"></a></li>
+                <li class="text-xl mx-2 hover:underline"><a href="#about" class="mdi mdi-account-badge"></a></li>
+                <li class="text-xl mx-2 hover:underline"><a href="#projects" class="mdi mdi-xml"></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
+    
+    <main class="w-11/12 m-auto my-10">
+
+        <section id="home" class="flex flex-wrap mt-4 h-screen justify-around items-center">
+            <aside class="flex flex-col gap-2 text-center">
+                <h2 class="text-black dark:text-white text-2xl md:text-4xl">Olá, meu nome é </h2>
+                <h1 class="text-cyan-500 dark:text-indigo-500 text-3xl md:text-6xl"><strong>Gabriel Frutuoso</strong></h1>
+                <h2 class="text-gray-600 dark:text-gray-400 text-3xl md:text-4xl py-2 text-center border-b-2 border-sky-600 dark:border-indigo-900 mt-6">Web Developer</h2>
+                
+                <ul class="flex gap-5 text-gray-600 dark:text-gray-400 text-2xl md:text-4xl mx-auto" >
+                    <li class="mdi mdi-language-html5 transition-all duration-300 cursor-pointer hover:text-amber-600"></li>
+                    <li class="mdi mdi-language-css3 transition-all duration-300 cursor-pointer hover:text-blue-400"></li>
+                    <li class="mdi mdi-language-javascript transition-all duration-300 cursor-pointer hover:text-yellow-400"></li>
+                    <li class="mdi mdi-react transition-all duration-300 cursor-pointer hover:text-sky-500"></li>
+                    <li class="mdi mdi-tailwind transition-all duration-300 cursor-pointer hover:text-sky-400"></li>
+                    <li class="mdi mdi-git transition-all duration-300 cursor-pointer hover:text-orange-600"></li>
+                    <li class="mdi mdi-github transition-all duration-300 cursor-pointer hover:text-indigo-600"></li>
+                </ul>
+            </aside>
+            <aside class="flex flex-col justify-center items-center w-96 text-white">
+                <img src="/images/GabrielPhoto.jpg" alt="foto de Gabriel Frutuoso" class="rounded-full overflow-hidden h-64 w-64 border-4 border-sky-500 dark:border-indigo-900 floating shadow-xl">
+
+                <div class="text-xl text-black dark:text-white">
+                    <div class="my-3">
+                        <h3>Contato:</h3>
+                        <p class="text-sm sm:text-xl">GabrielFrutuoso_contato@hotmail.com</p>
+                    </div>
+                     <div class="my-3">
+                        <h3>Perfis:</h3>
+                        <div class="flex gap-6">
+                            <a href="http://www.linkedin.com/in/gabriel-frutuoso-contato" target="_blank" class="text-sky-800 dark:text-sky-600 hover:underline">
+                                <p class="mdi mdi-linkedin" >linkedin</p>
+                            </a>
+                            <a href="https://github.com/GabrielFrutuoso" target="_blank" class="text-indigo-800 dark:text-indigo-600 hover:underline">
+                                <p class="mdi mdi-github">Github</p>
+                            </a>                           
+                        </div> 
+                        
+                    </div>
+                    <button class="mdi mdi-download mx-auto bg-sky-500 text-white dark:bg-indigo-700 rounded-lg w-full mx-auto py-1">Baixar currículo</button>
+                </div>  
+            </aside>
+        </section>
+
+       <section id="about" class="text-white text-3xl md:text-4xl text-center my-20">
+        
+        <h2 class="text-3xl md:text-4xl text-black dark:text-white p-2 my-2 border-b-2 border-sky-600 dark:border-indigo-900">SOBRE MIM</h2>
+        <p class="text-2xl md:text-1xl text-gray-600 dark:text-gray-400 p-2 my-2 mx-auto w-11/12">Olá, me chamo Gabriel, tenho 19 anos, residente de Guarujá, São Paulo. Desde muito pequeno sempre gostei da área de tecnologia, mas só no começo de 2023, decidi que era na área de programação que gostaria de trabalhar, desde então, venho aprendendo, aprimorando minhas habilidades, e sempre tentando fazer projetos cada vez mais complexos, usando bibliotecas, API´s ou frameworks que acabei de aprender ou conhecer. Atualmente estou focando na área voltada ao <strong>Front-End, </strong>porém pretendo no futuro aprender também sobre <strong>Back-End.</strong> Atualmente estou em busca da minha primeira oportunidade profissional.</p>
+
+        <div class="my-32">
+            <h2 class="text-3xl md:text-4xl text-black dark:text-white  p-2 my-8 border-b-2 border-sky-600 dark:border-indigo-900">MINHAS HABILIDADES</h2>
+
+            <div class="w-11/12 mx-auto flex flex-wrap justify-center items-center gap-16 p-4">
+                
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4 ">
+
+                    <div class="icon text-8xl text-white bg-orange-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-language-html5"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-orange-600">HTML5</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">HTML5 é uma linguagem de marcação de texto, responsável por toda a estuturação do site como: cabeçalhos, formulários, menus, ETC...</p>
+                </div>
+                
+               
+                
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4 ">
+            
+                    <div class="icon text-8xl text-white bg-blue-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-language-css3"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-blue-600">CSS3</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">CSS3 se trata de uma linguagem de estilização, responsável por estilizar o elementos HTML da aplicação</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4 ">
+            
+                    <div class="icon text-8xl text-white bg-yellow-400 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-language-javascript"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-yellow-400">JavaScript</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">JavaScript é a linguagem de programação que permite dar interatividade ás aplicações, também é base de muitas bibliotecas e frameworks.</p>
+                </div>
+            
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4 ">
+            
+                    <div class="icon text-8xl text-white bg-neutral-300 dark:bg-neutral-600 absolute rounded-xl shadow-xl">
+                        <div class="rotating">
+                            <i class="mdi mdi-react text-sky-500"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-sky-500">React JS</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">React js é uma biblioteca javascript, na qual serve para componentizar os elementos HTML, asim, tornando mais fácil a manutenção dos sites/aplicações Web.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4">
+            
+                    <div class="icon text-8xl text-cyan-300 bg-neutral-300 dark:bg-neutral-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-tailwind blinking"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-sky-400 dark:text-sky-200">Tailwind CSS</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">Tailwind CSS é uma bliblioteca CSS, que permite estilizar os elementos HTML por meio de classes pré estabelecidas.</p>
+                </div>
+                
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4">
+            
+                    <div class="icon text-8xl text-orange-600 bg-neutral-300 dark:bg-neutral-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-git"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-orange-600">Git</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">O git é uma ferramenta de versionamento de código, ela facilita o gerenciamento e o compartilhamento dos códigos de uma aplicação entre desenvolvedores</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4">
+            
+                    <div class="icon text-8xl text-indigo-900 bg-neutral-300 dark:bg-neutral-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-github"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-indigo-600">GitHub</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">Com o GitHub, os desenvolvedores são capazes de compartilhar os códigos para outros desenvolvedores, parecido com redes sociais.</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-evenly w-60 h-80 bg-neutral-100 dark:bg-neutral-800 border-2 border-zinc-600 relative rounded-md pt-20 pb-4">
+            
+                    <div class="icon text-8xl text-neutral-600 dark:text-neutral-800 bg-neutral-300 dark:bg-neutral-600 absolute rounded-xl shadow-xl">
+                        <div>
+                            <i class="mdi mdi-responsive"></i>
+                        </div>
+                        
+                    </div>
+                    <h3 class="text-3xl text-neutral-400 :text-neutral-200">Responsividade</h3>
+                    <p class="w-11/12 text-center text-neutral-800 dark:text-neutral-400 text-lg">É fundamental que as aplicações web sejam acessíveis para todos os tamanhos de tela, tanto para computadores e laptops, tablets e smartphones.</p>
+                </div>
+
+            </div>
+        </div>
+        
+       </section>
+
+        <section id="projects" class="flex flex-col mt-4 justify-around items-center text-white">
+            <h1 class="text-3xl md:text-4xl text-black dark:text-white p-2 my-2 border-b-2 border-sky-600 dark:border-indigo-900 w-full text-center">PROJETOS</h1>
+
+                <div class="w-full flex flex-wrap flex-row justify-center items-center p-4 gap-4">
+                    
+                    <div class="LOL flex flex-wrap flex-row justify-center text-white bg-gradient-to-b from-neutral-100 to-blue-500 p-4 rounded-lg w-80">
+                        <div class="flex flex-col items-center">
+                            <div class="h-36 flex">
+                                <div class="pokedex">
+                                    <div class="abas" id="cima">
+                                        <div class="botao-slot-cima">
+                                            <div id="botao"></div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="corpo" id="corpo">
+                                    </div>
+                            
+                                    <div class="abas" id="baixo">  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                            <h2 class="text-2xl text-center">PokeVice</h2>
+                            <h3 class="text-lg">Tecnologias utilizadas:</h3>
+                            <ul class="grid grid-cols-2">
+                                <li class="mdi mdi-language-html5">HTML5</li>
+                                <li class="mdi mdi-language-css3">CSS3</li>
+                                <li class="mdi mdi-language-javascript">JavaScript</li>
+                            </ul>
+                            </div>
+                        </div>
+                    
+                            <div class="w-11/12 h-48 flex flex-col justify-evenly items-center">
+                                <h3 class="text-left indent-3 text-xl ">Objetivo do Projeto:</h3>
+                                <p class="text-left indent-5 w-full">Este foi o meu primeiro contato com requisições <strong>HTTP</strong>  e consumo de <strong>API´S</strong>, logo, meu objetivo foi consumir a PokeAPI e conseguir manipular HTML através da <strong>DOM</strong>.</p>
+                            </div>
+                            <a href="https://pokevice.netlify.app" target="_blank" class="bg-white text-black hover:underline px-4 rounded-xl">Ver Projeto</a>
+                       </div>
+                
+                
+                   <div class="LOL flex flex-wrap flex-row justify-center text-white bg-neutral-900 border-4 border-yellow-500 p-4 rounded-lg w-80">
+                    <div>
+                        <div class="h-36 w-36 mx-auto">
+                            <img src="images/lol-logo.png" alt="" class="w-full h-full">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                        <h2 class="text-2xl text-center">Runnepedia</h2>
+                        <h3 class="text-lg">Tecnologias utilizadas:</h3>
+                        <ul class="grid grid-cols-2">
+                            <li class="mdi mdi-language-html5">HTML5</li>
+                            <li class="mdi mdi-language-css3">CSS3</li>
+                            <li class="mdi mdi-language-javascript">JavaScript</li>
+                        </ul>
+                        </div>
+                    </div>
+                
+                        <div class="w-11/12 h-48 flex flex-col justify-evenly items-center">
+                            <h3 class="text-left indent-3 text-xl">Objetivo do Projeto:</h3>
+                            <p class="text-left text-neutral-300 indent-5 w-full">Neste projeto, o objetivo principal foi aprender a criar uma página individual para cada elemento da aplicação, nesse caso, os campeões (personagens) do jogo League of Legends.</p>
+                        </div>
+                        <a href="https://runnepedia.netlify.app" target="_blank" class="bg-white text-black hover:underline px-4 rounded-xl">Ver Projeto</a>
+                   </div>
+                
+                   <div class="weather overflow-hidden flex flex-wrap flex-row justify-center text-white p-4 rounded-lg w-80">
+                    <div class="z-20">
+                        <div class="h-36 w-36 mx-auto">
+                            <i class="mdi mdi-umbrella text-white mx-auto text-9xl"></i>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                        <h2 class="text-2xl text-center">Weather Now</h2>
+                        <h3 class="text-lg">Tecnologias utilizadas:</h3>
+                        <ul class="grid grid-cols-2">
+                            <li class="mdi mdi-language-html5">HTML5</li>
+                            <li class="mdi mdi-language-css3">CSS3</li>
+                            <li class="mdi mdi-language-javascript">JavaScript</li>
+                        </ul>
+                        </div>
+                    </div>
+                
+                        <div class="w-11/12 h-48 flex flex-col justify-evenly items-center z-20">
+                            <h3 class="text-left indent-3 text-xl">Objetivo do Projeto:</h3>
+                            <p class="text-left text-neutral-100 indent-3 w-full">neste caso, o objetivo foi fazer o projeto o mais rápido que eu pude, sem tutorias ou qualquer tipo de auxílio, então escolhi a API da <strong>openWeatherMap</strong>, por se tratar de uma API simples de trabalhar.</p>
+                        </div>
+                        <a href="https://runnepedia.netlify.app" target="_blank" class="z-20 bg-white text-black hover:underline px-4 rounded-xl">Ver Projeto</a>
+                   </div>
+                
+                   <div class="flex flex-wrap flex-row justify-center text-white bg-red-600 p-4 rounded-lg w-80">
+                    <div>
+                        <div class="h-36 w-36 mx-auto relative">
+                            <img src="images/logo-do-react.png" alt="react-logo" class="mx-auto rotating"> 
+                            <img src="images/pokeball.png" alt="" class="poke">
+                        </div>
+                        <div class="flex flex-col gap-2 my-2">
+                        <h2 class="text-2xl text-center">ReactDex</h2>
+                        <h3 class="text-lg">Tecnologias utilizadas:</h3>
+                        <ul class="grid grid-cols-2">
+                            <li class="mdi mdi-react">React JS</li>
+                            <li class="mdi mdi-tailwind">Tailwind CSS</li>
+                        </ul>
+                        </div>
+                    </div>
+                
+                        <div class="w-11/12 h-48 flex flex-col justify-evenly items-center">
+                            <h3 class="text-left indent-3 text-xl">Objetivo do Projeto:</h3>
+                            <p class="text-left text-neutral-100 indent-3 w-full">Esta foi a minha primeira experiência com <strong>React JS</strong>, aqui, meu objetivo foi aprender como usar os <strong>HOOKS</strong> do React JS, e entender como funciona as requisições de <strong>API´S</strong> com a tecnologia.</p>
+                        </div>
+                        <a href="https://react-n70eqkjqq-gabrielfrutuoso.vercel.app" target="_blank" class="bg-white text-black hover:underline px-4 rounded-xl">Ver Projeto</a>
+                   </div>
+
+                </div>
+                
+        </section>
+
+        <footer class="flex flex-wrap flex-row justify-evenly items-center border-t-2 border-solid border-sky-800 dark:border-indigo-900 w-full p-2 bg-neutral-100 dark:bg-neutral-900 text-black dark:text-white gap-2">
+            <ul class="flex flex-col">
+                <li class="text-lg mx-2 hover:underline"><a href="#home">Home</a></li>
+                <li class="text-lg mx-2 hover:underline"><a href="#about">Sobre mim</a></li>
+                <li class="text-lg mx-2 hover:underline"><a href="#projects">Pojetos</a></li>
+            </ul>
+            <ul class="flex flex-col gap-1">
+                <li class="mdi mdi-github hover:underline"><a href="https://github.com/GabrielFrutuoso">GitHub</a></li>
+                <li class="mdi mdi-linkedin"><a href="http://www.linkedin.com/in/gabriel-frutuoso-contato" target="_blank">Linkedin</a></li>
+            </ul>
+        </footer>
+    </main>
+
+</body>
+</html>
